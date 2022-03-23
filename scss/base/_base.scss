@@ -1,6 +1,35 @@
 body {
-    display: block;
     height: 100%;
 }
+h3 {
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+h6 {
+    margin-left: 21px;
+    color: gray;
+    svg {
+        color: white;
+        padding-right: 5px;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    transition: 0.5s;
+    font-size: larger;
+}
+
 
 
