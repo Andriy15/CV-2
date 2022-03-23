@@ -27,12 +27,14 @@ a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     transition: 0.5s;
     font-size: larger;
+    color: yellowgreen;
 }
 
-h5 {
+h5:first-child {
     margin-left: 70px;
 }
 
@@ -42,3 +44,6 @@ ul {
     }
 }
 
+h3:last-child {
+    padding-left: 25px;
+}
