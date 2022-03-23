@@ -1,11 +1,12 @@
 body {
+  color: #323b4c;
   height: 100%;
 }
 
 h3 {
   text-transform: uppercase;
   padding-left: 25px;
-  padding-top: 30px;
+  padding-top: 47px;
 }
 
 h6 {
@@ -32,6 +33,14 @@ a {
 a:hover {
   transition: 0.5s;
   font-size: larger;
+}
+
+h5 {
+  margin-left: 70px;
+}
+
+ul li {
+  padding-bottom: 5px;
 }
 
 @media (max-width: 675px) {
@@ -75,11 +84,18 @@ a:hover {
   width: 455px;
   height: 900px;
 }
+.right .text {
+  border-left: 2px solid gray;
+  margin-left: 60px;
+  text-transform: none;
+}
+.right .text h4 {
+  text-transform: none;
+}
 .right p {
   padding-left: 25px;
 }
 .right h4 {
-  position: relative;
   top: 2px;
   text-transform: uppercase;
   padding-left: 25px;

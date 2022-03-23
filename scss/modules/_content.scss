@@ -33,11 +33,18 @@
     float: left;
     width: 455px;
     height: 900px;
+    .text {
+        h4 {
+            text-transform: none;            
+        }
+        border-left: 2px solid gray;
+        margin-left: 60px;
+        text-transform: none;
+    }
     p{
         padding-left: 25px;
     }
     h4 {
-        position: relative;
         top: 2px;
         text-transform: uppercase;
         padding-left: 25px;
@@ -47,4 +54,6 @@
         border: 1px solid;
     }
 }
+
+
 
