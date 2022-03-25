@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 body {
   color: #323b4c;
   height: 100%;
@@ -19,6 +20,7 @@ h6 svg {
 }
 
 h1 {
+  font-weight: 100;
   text-transform: uppercase;
   padding-left: 25px;
   padding-bottom: 0px;
@@ -28,10 +30,10 @@ h1 {
 a {
   color: white;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 a:hover {
-  transition: 0.5s;
   font-size: larger;
   color: yellowgreen;
 }
@@ -48,12 +50,29 @@ h3:last-child {
   padding-left: 25px;
 }
 
+hr {
+  margin-top: -15px;
+}
+
+i {
+  padding-right: 10px;
+  color: white;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+i:hover {
+  color: darkgrey;
+  font-size: large;
+}
+
 @media (max-width: 675px) {
   .right {
     display: contents;
   }
 }
 .left {
+  font-size: 14.5px;
   height: 1300px;
   width: 220px;
   padding-left: 30px;
@@ -64,7 +83,7 @@ h3:last-child {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  padding: 50px 35px;
+  padding: 30px 35px;
 }
 .left h4 {
   text-transform: uppercase;
@@ -79,6 +98,7 @@ h3:last-child {
 .left h5 {
   margin-left: 21px;
   color: white;
+  margin-bottom: -5px;
 }
 .left p {
   margin-left: 21px;
@@ -86,6 +106,7 @@ h3:last-child {
 }
 
 .right {
+  font-size: 14.5px;
   float: left;
   width: 455px;
   height: 1100px;
@@ -99,13 +120,13 @@ h3:last-child {
   color: yellowgreen;
 }
 .right .text {
-  margin-left: 60px;
+  margin-left: 20px;
   text-transform: none;
 }
 .right .text h4 {
   text-transform: none;
 }
-.right .text > ul li::before {
+.right .text ul::before {
   content: "";
   position: absolute;
   top: 5px;
@@ -115,13 +136,13 @@ h3:last-child {
   border-radius: 50%;
   border: 2px solid #323b4c;
 }
-.right .text > ul li::after {
+.right .text ul::after {
   content: "";
   position: absolute;
   top: 14px;
   left: -14px;
   width: 2px;
-  height: 286px;
+  height: 226px;
   background: #323b4c;
 }
 .right li {
@@ -131,8 +152,11 @@ h3:last-child {
 .right p {
   padding-left: 25px;
 }
+.right .top {
+  margin-top: 0px;
+}
 .right h4 {
-  top: 2px;
+  margin-top: 31px;
   text-transform: uppercase;
   padding-left: 25px;
 }
@@ -141,6 +165,13 @@ h3:last-child {
   border: 1px solid;
 }
 
+.line li {
+  list-style-type: disc;
+}
+
+.footer {
+  display: flex;
+}
 .footer h5 {
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -154,4 +185,8 @@ h3:last-child {
 }
 .footer p {
   margin-top: 10px;
+}
+
+.i {
+  src: url(../node_modules/bootstrap-scss);
 }

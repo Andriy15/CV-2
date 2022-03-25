@@ -18,6 +18,7 @@ h6 {
 }
 
 h1 {
+    font-weight: 100;
     text-transform: uppercase;
     padding-left: 25px;
     padding-bottom: 0px;
@@ -26,10 +27,10 @@ h1 {
 a {
     color: white;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 a:hover {
-    transition: 0.5s;
     font-size: larger;
     color: yellowgreen;
 }
@@ -46,4 +47,20 @@ ul {
 
 h3:last-child {
     padding-left: 25px;
+}
+
+hr {
+    margin-top: -15px;
+}
+
+i {
+    padding-right: 10px;
+    color: white;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+i:hover {
+    color: darkgrey;
+    font-size: large;
 }
