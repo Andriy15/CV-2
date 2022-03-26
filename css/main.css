@@ -54,9 +54,10 @@ hr {
   margin-top: -15px;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 720px) {
   .right {
     display: contents;
+    text-align: center;
   }
 }
 .left {
