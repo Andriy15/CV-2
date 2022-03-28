@@ -1,11 +1,11 @@
 i {
     padding-right: 10px;
-    color: white;
+    color: $color-gray;
     font-size: 15px;
     transition: 0.2s;
 }
 
 i:hover {
-    color: darkgrey;
+    color: $color-hover;
     font-size: large;
 }
