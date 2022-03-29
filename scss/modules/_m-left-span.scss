@@ -1,0 +1,17 @@
+.m-left-span {
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+a {
+    color: $color-white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    font-size: larger;
+    color: $color-hover;
+}

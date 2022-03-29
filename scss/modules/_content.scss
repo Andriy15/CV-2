@@ -2,30 +2,33 @@
     font-size: 14.5px;
     width: 220px;
     padding-left: 30px;
-    float: left;
-    background: #323b4c;
+    background: $color-theme;
     img {
         border-radius: 50%;
         width: 150px;
         height: 150px;
-        padding: 30px 35px;
+        padding: 30px;
     }
     hr {
         width: 90%;
-        margin-left: 21px;
-        color: $color-base;
+        margin-left: 20px;
+        color: $color-white;
     }
     h5 {
-        margin-left: 21px;
-        color: $color-base;
+        margin-left: 20px;
+        color: $color-white;
         margin-bottom: -5px;
     }
     p {
-        margin-left: 21px;
+        margin-left: 20px;
         color: $color-gray;
     }
 }
-
+ .right {
+    h1 {
+        margin-bottom: 3px;
+    }  
+ }
 
 
 

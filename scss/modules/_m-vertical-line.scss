@@ -1,0 +1,21 @@
+.m-vertical-line {    
+    ul::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -18px;
+    width: 6px;
+    height: 7px;
+    border-radius: 50%;
+    border: 2px solid $color-theme;
+    }
+    ul::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -14px;
+    width: 2px;
+    height: 226px;
+    background: $color-theme;
+    }
+}

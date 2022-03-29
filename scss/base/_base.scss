@@ -1,16 +1,6 @@
-a {
-    color: whitesmoke;
-    text-decoration: none;
-    transition: 0.5s;
-}
+body {
+    font-family: 'Montserrat', sans-serif;}
 
-a:hover {
-    font-size: larger;
-    color: yellowgreen;
-}
-
-ul {
-    li {
-        padding-bottom: 5px;
-    }
+h4 {
+    color: $color-black;
 }

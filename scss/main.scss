@@ -1,6 +1,7 @@
+@import "fonts";
 @import "variables";
 
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons";
+@import "/node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import "../node_modules/bootstrap/bootstrap-grid";
 
 
@@ -13,5 +14,8 @@
 @import "modules/footer";
 @import "modules/icons";
 
-@import "modules/m-tables";
-@import "modules/m-span";
+@import "modules/m-left-span";
+@import "modules/m-left-tables";
+@import "modules/m-right-tables";
+@import "modules/m-right-span";
+@import "modules/m-vertical-line";
