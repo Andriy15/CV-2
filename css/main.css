@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import "/node_modules/bootstrap-icons/font/bootstrap-icons.css";
+.img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+}
+
 /*!
  * Bootstrap Grid v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -5057,17 +5064,26 @@ h4 {
   color: #000000;
 }
 
+.row .col:last-child {
+  margin-right: 100px;
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    display: contents;
+  }
+}
 .left {
   font-size: 14.5px;
   width: 220px;
   padding-left: 30px;
   background: #323b4c;
-}
-.left img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  padding: 30px;
 }
 .left hr {
   width: 90%;
@@ -5087,6 +5103,9 @@ h4 {
 .right h1 {
   margin-bottom: 3px;
 }
+.right .m-right-block {
+  margin-bottom: 35px;
+}
 
 .footer {
   display: flex;
@@ -5102,6 +5121,9 @@ h4 {
 }
 .footer p {
   margin-top: 10px;
+}
+.footer .right1 {
+  margin-left: 15px;
 }
 
 i {
@@ -5127,15 +5149,15 @@ a:hover {
   color: #169169;
 }
 
-.m-left-tables {
+.m-left-list {
   color: #808080;
 }
-.m-left-tables li {
+.m-left-list li {
   list-style-type: none;
   margin-left: -20px;
 }
 
-.m-right-tables {
+.m-right-list {
   font-size: 12px;
 }
 
@@ -5144,22 +5166,33 @@ a:hover {
   font-weight: bolder;
 }
 
-.m-vertical-line ul::before {
+.vr {
+  list-style-type: none;
+  position: relative;
+  margin-left: 20px;
+  padding-left: 15px;
+}
+.vr:last-child {
+  margin-bottom: 50px;
+}
+
+.vr ul li::before {
   content: "";
   position: absolute;
   top: 5px;
-  left: -18px;
+  left: -25px;
   width: 6px;
-  height: 7px;
+  height: 6px;
   border-radius: 50%;
   border: 2px solid #323b4c;
 }
-.m-vertical-line ul::after {
+
+.vr ul li::after {
   content: "";
   position: absolute;
   top: 14px;
-  left: -14px;
+  left: -21px;
   width: 2px;
-  height: 226px;
+  height: 243px;
   background: #323b4c;
 }

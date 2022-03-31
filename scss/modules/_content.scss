@@ -3,12 +3,6 @@
     width: 220px;
     padding-left: 30px;
     background: $color-theme;
-    img {
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-        padding: 30px;
-    }
     hr {
         width: 90%;
         margin-left: 20px;
@@ -27,7 +21,10 @@
  .right {
     h1 {
         margin-bottom: 3px;
-    }  
+    }
+    .m-right-block {
+        margin-bottom: 35px;
+    } 
  }
 
 

@@ -4,3 +4,10 @@ body {
 h4 {
     color: $color-black;
 }
+
+.row {
+    .col:last-child {
+        margin-right: 100px;
+        margin-top: -20px;
+    }
+}
