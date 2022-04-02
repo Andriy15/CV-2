@@ -1,11 +1,52 @@
 @media only screen and (max-width: 600px){
     .container {
         display: block;
+        .vr::before {
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: -25px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            border: 2px solid $color-theme;
+          }
+          
+          .vr::after {
+            content: "";
+            position: absolute;
+            top: 14px;
+            left: -21px;
+            width: 2px;
+            height: 227px;
+            background: $color-theme;
+          }
     }
 }
 
 @media only screen and (min-width: 992px){
     .container {
         display: contents;
+        .vr::before {
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: -25px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            border: 2px solid $color-theme;
+          }
+          
+          .vr::after {
+            content: "";
+            position: absolute;
+            top: 14px;
+            left: -21px;
+            width: 2px;
+            height: 167px;
+            background: $color-theme;
+          }
     }
+    
 }

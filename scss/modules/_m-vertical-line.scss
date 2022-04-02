@@ -8,7 +8,7 @@
     }
 }
 
-.vr ul li::before {
+.vr::before {
   content: "";
   position: absolute;
   top: 5px;
@@ -19,7 +19,7 @@
   border: 2px solid $color-theme;
 }
 
-.vr ul li::after {
+.vr::after {
   content: "";
   position: absolute;
   top: 14px;
