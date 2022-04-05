@@ -1,30 +1,31 @@
-.vr{
+.vr {
     list-style-type: none;
     position: relative;
     margin-left: 20px;
     padding-left: 15px;
+
     &:last-child {
         margin-bottom: 50px;
     }
-}
 
-.vr::before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: -25px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  border: 2px solid $color-theme;
-}
+    &:before {
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: -26px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      border: 2px solid $color-theme;
+    }
 
-.vr::after {
-  content: "";
-  position: absolute;
-  top: 14px;
-  left: -21px;
-  width: 2px;
-  height: 243px;
-  background: $color-theme;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 14px;
+      left: -21px;
+      width: 2px;
+      height: calc(100% + 40px); // calc
+      background: $color-theme;
+    }
 }

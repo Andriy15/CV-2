@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "bootstrap-icons": "^1.8.1",
-    "graceful-fs": "^4.2.9"
+    "graceful-fs": "^4.2.9",
+    "normalize-scss": "^7.0.1"
   }
 }

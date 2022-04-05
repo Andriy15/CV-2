@@ -1,13 +1,14 @@
+@import "utilities/mixins";
+
 body {
+    font-size: rem(12px);
     font-family: 'Montserrat', sans-serif;}
 
 h4 {
     color: $color-black;
 }
 
-.row {
-    .col:last-child {
-        margin-right: 100px;
-        margin-top: -20px;
-    }
+i {
+    color: $color-black;
+    padding-left: 4px;
 }

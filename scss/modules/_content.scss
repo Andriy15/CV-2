@@ -1,33 +1,48 @@
-.left {
-    font-size: 14.5px;
-    width: 220px;
-    padding-left: 30px;
-    background: $color-theme;
-    hr {
-        width: 90%;
-        margin-left: 20px;
-        color: $color-white;
-    }
-    h5 {
-        margin-left: 20px;
-        color: $color-white;
-        margin-bottom: -5px;
-    }
-    p {
-        margin-left: 20px;
-        color: $color-gray;
+@import "utilities/mixins";
+
+.m-right-span {
+    font-size: rem(16px);
+    color: $color-theme;
+}
+
+.m-left-list {
+    color: $color-white;
+    li {    
+        list-style-type: none;
     }
 }
- .right {
-    h1 {
-        margin-bottom: 3px;
+
+.m-right-block {
+    span {
+        font-size: rem(24px);
     }
-    .m-right-block {
-        margin-bottom: 35px;
-    } 
- }
+    h4 {
+        letter-spacing: 3px;
+    }
+}
 
+.m-span {
+    color: $color-white;
+    font-size: rem(14px);
+}
 
+.circle {
+    width: 20px;
+    height: 20px;
+    background: $color-white;
+    border-radius: 50%;
+}
 
+.m-right-list {
+    li {
+        list-style-type: disc;
+    }
+}
 
+.inline {
+    display: inline-flex;
+}
 
+.circ-p {
+    margin-top: 3px;
+}
