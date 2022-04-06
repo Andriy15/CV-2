@@ -91,8 +91,13 @@ i {
 }
 
 .m-right-span {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #323b4c;
+}
+
+.top {
+  position: relative;
+  bottom: -40px;
 }
 
 .m-left-list {
@@ -111,7 +116,7 @@ i {
 
 .m-span {
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
 }
 
 .circle {
@@ -124,6 +129,9 @@ i {
 .m-right-list li {
   list-style-type: disc;
 }
+.m-right-list ul {
+  line-height: 18px;
+}
 
 .inline {
   display: inline-flex;
@@ -135,6 +143,7 @@ i {
 
 .footer {
   display: flex;
+  margin-top: -20px;
 }
 .footer h5 {
   margin-bottom: 0px;
@@ -623,5 +632,14 @@ i {
   left: -21px;
   width: 2px;
   height: calc(100% + 40px);
+  background: #323b4c;
+}
+.vr:last-child::after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: calc(100% - 15px);
   background: #323b4c;
 }

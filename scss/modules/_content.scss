@@ -1,8 +1,13 @@
 @import "utilities/mixins";
 
 .m-right-span {
-    font-size: rem(16px);
+    font-size: rem(18px);
     color: $color-theme;
+}
+
+.top {
+    position: relative;
+    bottom: -40px;
 }
 
 .m-left-list {
@@ -23,7 +28,7 @@
 
 .m-span {
     color: $color-white;
-    font-size: rem(14px);
+    font-size: rem(18px);
 }
 
 .circle {
@@ -36,6 +41,9 @@
 .m-right-list {
     li {
         list-style-type: disc;
+    }
+    ul {
+        line-height: 18px;
     }
 }
 

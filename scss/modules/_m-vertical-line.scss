@@ -28,4 +28,14 @@
       height: calc(100% + 40px); // calc
       background: $color-theme;
     }
+
+    &:last-child::after {
+      content: "";
+      position: absolute;
+      top: 14px;
+      left: -21px;
+      width: 2px;
+      height: calc(100% - 15px); // calc
+      background: $color-theme;
+    }
 }
