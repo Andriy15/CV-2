@@ -9,6 +9,8 @@ h4 {
 }
 
 i {
+    position: relative;
     color: $color-black;
-    padding-left: 4px;
+    left: 4px;
+    top: 3px;
 }

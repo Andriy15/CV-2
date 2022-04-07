@@ -16,12 +16,14 @@ h4 {
 }
 
 i {
+  position: relative;
   color: #000000;
-  padding-left: 4px;
+  left: 4px;
+  top: 3px;
 }
 
 .l-container {
-  font-weight: 300;
+  font-weight: 500;
   display: flex;
 }
 .l-container .left {
@@ -39,7 +41,7 @@ i {
   margin-bottom: -5px;
 }
 .l-container .right hr {
-  width: 98%;
+  width: 94%;
   font-weight: 600;
 }
 @media only screen and (max-width: 600px) {
@@ -66,9 +68,6 @@ i {
   }
 }
 @media only screen and (min-width: 992px) {
-  .l-container .right .l-container {
-    display: flex;
-  }
   .l-container .right .l-container .vr::before {
     content: "";
     position: absolute;
@@ -91,7 +90,7 @@ i {
 }
 
 .m-right-span {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #323b4c;
 }
 
@@ -107,6 +106,9 @@ i {
   list-style-type: none;
 }
 
+.m-right-block {
+  margin-bottom: 78px;
+}
 .m-right-block span {
   font-size: 1.5rem;
 }
@@ -116,7 +118,7 @@ i {
 
 .m-span {
   color: #ffffff;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .circle {
@@ -148,10 +150,10 @@ i {
 .footer h5 {
   margin-bottom: 0px;
   padding-bottom: 0px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .footer h6 {
-  font-size: 11px;
+  font-size: 0.6875rem;
   margin-top: 0px;
   margin-bottom: 10px;
 }
@@ -594,6 +596,14 @@ i {
   font-weight: 600;
 }
 
+.fz-10 {
+  font-size: 0.625rem;
+}
+
+.fz-12 {
+  font-size: 0.75rem;
+}
+
 .fz-14 {
   font-size: 0.875rem;
 }
@@ -609,7 +619,7 @@ i {
 .vr {
   list-style-type: none;
   position: relative;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-left: 15px;
 }
 .vr:last-child {

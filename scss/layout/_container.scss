@@ -1,7 +1,7 @@
 @import "utilities/mixins";
 
 .l-container {
-    font-weight: 300;
+    font-weight: 500;
     display: flex;
     .left { 
         width: 220px;
@@ -19,7 +19,7 @@
     }
     .right {   
         hr {
-            width: 98%;
+            width: 94%;
             font-weight: 600;
         }
 
@@ -50,8 +50,6 @@
         
         @media only screen and (min-width: 992px){
             .l-container {
-                display: flex;
-                
                 .vr::before {
                     content: "";
                     position: absolute;
