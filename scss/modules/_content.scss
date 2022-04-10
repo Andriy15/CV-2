@@ -1,57 +1,63 @@
 @import "utilities/mixins";
 
-.m-right-span {
-    font-size: rem(16px);
-    color: $color-theme;
+.img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    padding: 40px;
 }
 
-.top {
-    position: relative;
-    bottom: -40px;
-}
+.contact {
+    .circle {
+        width: 20px;
+        height: 20px;
+        background: $color-white;
+        border-radius: 50%;
+    }
 
-.m-left-list {
-    color: $color-white;
-    li {    
+    li {
         list-style-type: none;
     }
+
+    .inline {
+        display: flex;
+    }
+
+    .m-left-list {
+        color: $color-white;
+    }
 }
 
-.m-right-block {
-    margin-bottom: 78px;
+.education {
     span {
-        font-size: rem(24px);
+        color: $color-white;
     }
-    h4 {
-        letter-spacing: 3px;
+
+    ul {
+        padding: 0;
+        list-style-type: none;
     }
+
+    li {
+        @include white(0.7);
+    }
+}
+
+.skills {
+    span {
+        color: $color-white;
+    }
+     ul {
+         padding: 0;
+         list-style-type: none;
+     }
+
+     li {
+         @include white(0.7);
+     }
 }
 
 .m-span {
     color: $color-white;
     font-size: rem(16px);
-}
-
-.circle {
-    width: 20px;
-    height: 20px;
-    background: $color-white;
-    border-radius: 50%;
-}
-
-.m-right-list {
-    li {
-        list-style-type: disc;
-    }
-    ul {
-        line-height: 18px;
-    }
-}
-
-.inline {
-    display: inline-flex;
-}
-
-.circ-p {
-    margin-top: 3px;
 }

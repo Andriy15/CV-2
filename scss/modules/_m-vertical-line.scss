@@ -39,3 +39,52 @@
       background: $color-theme;
     }
 }
+
+@media only screen and (max-width: 600px){
+  .l-container {
+      display: block;
+      .vr::before {
+          content: "";
+          position: absolute;
+          top: 5px;
+          left: -25px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          border: 2px solid $color-theme;
+        }
+        
+      .vr::after {
+        content: "";
+        position: absolute;
+        top: 16px;
+        left: -20px;
+        width: 2px;
+        background: $color-theme;
+      }
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .l-container {
+      .vr::before {
+          content: "";
+          position: absolute;
+          top: 5px;
+          left: -25px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          border: 2px solid $color-theme;
+        }
+        
+      .vr::after {
+        content: "";
+        position: absolute;
+        top: 16px;
+        left: -20px;
+        width: 2px;
+        background: $color-theme;
+      }
+  }
+}
