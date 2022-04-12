@@ -1,8 +1,11 @@
 .vr {
     list-style-type: none;
     position: relative;
-    margin-left: 10px;
     padding-left: 15px;
+
+    p {
+      margin-top: 2px;
+    }
 
     &:last-child {
         margin-bottom: 50px;

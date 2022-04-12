@@ -12,7 +12,6 @@ i {
   position: relative;
   color: #000000;
   left: 4px;
-  top: 3px;
 }
 
 .l-container {
@@ -20,10 +19,12 @@ i {
   display: flex;
 }
 .l-container .l-left {
+  padding-left: 25px;
   width: 220px;
   background: #323b4c;
 }
 .l-container .l-right {
+  margin-left: 25px;
   width: 800px;
 }
 .l-container .l-right hr {
@@ -31,6 +32,21 @@ i {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 600px) {
+  .l-container {
+    display: block;
+  }
+  .l-container .l-left {
+    padding: 0;
+  }
+  .l-container .l-left .skills {
+    padding-bottom: 20px;
+  }
+  .l-container .l-right {
+    margin: 0;
+    width: 375px;
+  }
+}
 .img {
   border-radius: 50%;
   width: 130px;
@@ -44,8 +60,12 @@ i {
   background: #ffffff;
   border-radius: 50%;
 }
+.contact ul {
+  padding: 0;
+}
 .contact li {
   list-style-type: none;
+  line-height: 20px;
 }
 .contact .inline {
   display: flex;
@@ -76,29 +96,39 @@ i {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.m-right-block div {
+  letter-spacing: 3px;
+}
+
+.work-exp hr {
+  margin: 0;
+  margin-top: 5px;
+}
+
 .m-span {
   color: #ffffff;
   font-size: 1rem;
 }
 
-.footer {
-  display: flex;
-  margin-top: -20px;
+.m-right-list li {
+  list-style-type: disc;
 }
-.footer h5 {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  font-size: 0.9375rem;
+
+.job ul {
+  padding: 0;
+  margin-left: 25px;
+}
+
+.footer .flex-cont {
+  display: flex;
 }
 .footer h6 {
-  font-size: 0.6875rem;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin: 0;
 }
 .footer p {
   margin-top: 10px;
 }
-.footer .right1 {
+.footer .f-right {
   margin-left: 15px;
 }
 
@@ -550,6 +580,10 @@ i {
   font-size: 1rem;
 }
 
+.fz-22 {
+  font-size: 1.375rem;
+}
+
 .white {
   color: #ffffff;
 }
@@ -557,8 +591,10 @@ i {
 .vr {
   list-style-type: none;
   position: relative;
-  margin-left: 10px;
   padding-left: 15px;
+}
+.vr p {
+  margin-top: 2px;
 }
 .vr:last-child {
   margin-bottom: 50px;

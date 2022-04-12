@@ -1,24 +1,17 @@
 .footer {
-    display: flex;
-    margin-top: -20px;
-
-    h5 {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        font-size: rem(15px);
+    .flex-cont {
+        display: flex;
     }
 
     h6 {
-        font-size: rem(11px);
-        margin-top: 0px;
-        margin-bottom: 10px;
+        margin: 0;                                  
     }
-    
+
     p {
         margin-top: 10px;
     }
-    
-    .right1 {
+
+    .f-right {
         margin-left:15px;
     }
     

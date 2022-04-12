@@ -15,8 +15,13 @@
         border-radius: 50%;
     }
 
+    ul {
+        padding: 0;
+    }
+
     li {
         list-style-type: none;
+        line-height: 20px;
     }
 
     .inline {
@@ -57,7 +62,33 @@
      }
 }
 
+.m-right-block {
+    div {
+        letter-spacing: 3px;
+    }
+}
+
+.work-exp {
+    hr {
+        margin: 0;
+        margin-top: 5px;
+    }
+}
+
 .m-span {
     color: $color-white;
     font-size: rem(16px);
+}
+
+.m-right-list {
+    li {
+        list-style-type: disc;
+    }
+}
+
+.job {
+    ul {
+        padding: 0;
+        margin-left: 25px;
+    }
 }

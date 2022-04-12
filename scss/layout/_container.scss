@@ -4,15 +4,33 @@
     font-weight: 500;
     display: flex;
     .l-left { 
+        padding-left: 25px;
         width: 220px;
         background: $color-theme;
     }
     .l-right {  
+        margin-left: 25px;
         width: 800px;
-        
         hr {
             width: 96%;
             font-weight: 600;
         }
      }
+}
+
+@media only screen and (max-width: 600px) {
+    .l-container {
+        display: block;
+        .l-left {
+            padding: 0;
+            .skills {
+                padding-bottom: 20px;
+            }
+        }
+
+        .l-right {
+            margin: 0;
+            width: 375px;
+        }
+    }
 }
