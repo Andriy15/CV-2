@@ -24,7 +24,7 @@
         line-height: 20px;
     }
 
-    .inline {
+    .li-contact {
         display: flex;
     }
 
@@ -40,6 +40,7 @@
 
     ul {
         padding: 0;
+        margin-top: 5px;
         list-style-type: none;
     }
 
@@ -54,6 +55,7 @@
     }
      ul {
          padding: 0;
+         margin-top: 5px;
          list-style-type: none;
      }
 
@@ -91,4 +93,23 @@
         padding: 0;
         margin-left: 25px;
     }
+}
+
+.footer {
+    .flex-cont {
+        display: flex;
+    }
+
+    h6 {
+        margin: 0;                                  
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    .f-right {
+        margin-left:15px;
+    }
+    
 }

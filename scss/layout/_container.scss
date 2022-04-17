@@ -22,14 +22,14 @@
     .l-container {
         display: block;
         .l-left {
-            padding: 0;
+            padding-left: 5px;
             .skills {
                 padding-bottom: 20px;
             }
         }
 
         .l-right {
-            margin: 0;
+            margin-left: 5px;
             width: 375px;
         }
     }

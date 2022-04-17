@@ -37,13 +37,13 @@ i {
     display: block;
   }
   .l-container .l-left {
-    padding: 0;
+    padding-left: 5px;
   }
   .l-container .l-left .skills {
     padding-bottom: 20px;
   }
   .l-container .l-right {
-    margin: 0;
+    margin-left: 5px;
     width: 375px;
   }
 }
@@ -67,7 +67,7 @@ i {
   list-style-type: none;
   line-height: 20px;
 }
-.contact .inline {
+.contact .li-contact {
   display: flex;
 }
 .contact .m-left-list {
@@ -79,6 +79,7 @@ i {
 }
 .education ul {
   padding: 0;
+  margin-top: 5px;
   list-style-type: none;
 }
 .education li {
@@ -90,6 +91,7 @@ i {
 }
 .skills ul {
   padding: 0;
+  margin-top: 5px;
   list-style-type: none;
 }
 .skills li {
