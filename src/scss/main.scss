@@ -1,15 +1,15 @@
 @import "variables";
 
-@import "/node_modules/bootstrap-icons/font/bootstrap-icons.css";
-
 @import "base/base";
 
 @import "layout/container";
 
-@import "modules/content";
-
 @import "utilities/helpers";
 @import "utilities/mixins";
+
+@import "modules/content";
+
+
 
 @import "modules/m-vertical-line";
 

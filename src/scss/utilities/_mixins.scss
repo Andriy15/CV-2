@@ -4,7 +4,6 @@ $base-body-size: 16px;
     @return $remValue;
 }
 
-
 @mixin white($opacity){
 	color: rgba(255,255,255,$opacity);
 }

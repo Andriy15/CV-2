@@ -1,10 +1,10 @@
-@import "utilities/mixins";
+@import "../utilities/mixins";
 
 .img {
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
-    padding: 40px;
+    border-radius: 30%;
+    width: 160px;
+    height: 190px;
+    padding: 40px 20px;
 }
 
 .contact {
