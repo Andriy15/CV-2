@@ -37,7 +37,7 @@ module.exports = {
     },
     output: {
         filename: '[name].js',
-        assetModuleFilename: 'images/[name][ext]',
+        assetModuleFilename: 'css/[name][ext]',
         path: path.resolve(__dirname, 'dist')
     },
     resolve: {
@@ -48,7 +48,7 @@ module.exports = {
             chunks: 'all'
         },
         minimizer: [
-            new CssMinimizerPlugin(),
+            // new CssMinimizerPlugin(),
             new TerserWebpackPlugin()
         ],
 
